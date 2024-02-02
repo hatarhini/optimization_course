@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "optimization-course"
+version = "0.1.0"
+description = ""
+authors = ["hatarhini <hussein.tarhini@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pulp = "*"
+pandas = "*"
+ipykernel = "*"
+pyarrow = "*" 
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
