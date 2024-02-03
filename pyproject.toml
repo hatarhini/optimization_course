@@ -11,6 +11,7 @@ pulp = "*"
 pandas = "*"
 ipykernel = "*"
 pyarrow = "*" 
+matplotlib = "*"
 
 [build-system]
 requires = ["poetry-core"]
